@@ -1,1 +1,13 @@
+Programacion – TUP
 
+Profesor: Sebastian Bruselario
+
+Alumno: Facundo Miguel Archiria
+
+Unidad N°2: Trabajo Colaborativo
+
+Trabajo Práctico Nº 2: Git y GitHub
+
+Creacion de Fork y Manejo de Repositorio.
+
+Carga de PDF en la carpeta del repositorio de la Unidad correspondiente (2) con el TP asignado para su posterior evaluacion.
