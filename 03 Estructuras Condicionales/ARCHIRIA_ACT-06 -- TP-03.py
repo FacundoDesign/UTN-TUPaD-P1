@@ -25,4 +25,4 @@ if media > mediana > moda:
 elif media < mediana < moda:
     print("La distribución tiene sesgo negativo (a la izquierda)")
 else:
-print("La distribución no tiene sesgo")
+    print("La distribución no tiene sesgo")
