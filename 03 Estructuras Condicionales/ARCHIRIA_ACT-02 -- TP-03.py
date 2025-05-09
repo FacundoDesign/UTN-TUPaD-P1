@@ -1,4 +1,4 @@
-#Práctico 3: Estructuras condicionales - Soluciones
+#Práctico 3: Estructuras condicionales
 #Actividad 2
 
 
