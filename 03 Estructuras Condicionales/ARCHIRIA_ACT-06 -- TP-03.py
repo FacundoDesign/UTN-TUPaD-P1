@@ -27,5 +27,5 @@ elif media < mediana < moda:
 else:
     print("La distribución no tiene sesgo")
 
-#En esta actividad/ejercicio que me fue la mas compleja, tuve que usar el paquete statistics y entender los conceptos de moda, mediana y media.
+#En esta actividad/ejercicio que es compleja, tuve que usar el paquete statistics y entender los conceptos de moda, mediana y media.
 #Añadí prints para ver los valores calculados y poder verificar el resultado.
