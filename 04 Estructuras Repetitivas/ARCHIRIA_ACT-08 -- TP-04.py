@@ -1,7 +1,6 @@
 # Actividad 8: Análisis de 100 números
 # Escribe un programa que permita al usuario ingresar 100 números enteros. 
-# Luego, el programa debe indicar cuántos de estos números son pares, 
-# cuántos son impares, cuántos son negativos y cuántos son positivos.
+# Luego, el programa debe indicar cuántos de estos números son pares, cuántos son impares, cuántos son negativos y cuántos son positivos.
 
 print("=== ACTIVIDAD 8: ANÁLISIS DE NÚMEROS ===")
 
