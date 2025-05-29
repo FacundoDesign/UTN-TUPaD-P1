@@ -1,6 +1,5 @@
 # Actividad 7: Suma de números del 0 hasta un número dado
-# Crea un programa que calcule la suma de todos los números 
-# comprendidos entre 0 y un número entero positivo indicado por el usuario.
+# Crea un programa que calcule la suma de todos los números comprendidos entre 0 y un número entero positivo indicado por el usuario.
 
 print("=== ACTIVIDAD 7: SUMA HASTA NÚMERO DADO ===")
 
