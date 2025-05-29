@@ -5,7 +5,7 @@
 
 print("=== ACTIVIDAD 8: ANÁLISIS DE NÚMEROS ===")
 
-CANTIDAD_NUMEROS = 100
+CANTIDAD_NUMEROS = 5 # Puedes cambiar este número para probar con menos numeros = []
 
 print(f"Ingrese {CANTIDAD_NUMEROS} números enteros:")
 
