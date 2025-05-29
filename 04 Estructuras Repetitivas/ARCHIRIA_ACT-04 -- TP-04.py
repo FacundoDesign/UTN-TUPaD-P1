@@ -1,7 +1,6 @@
 # Actividad 4: Suma números hasta que se ingrese 0
-# Elabora un programa que permita al usuario ingresar números enteros 
-# y los sume en secuencia. El programa debe detenerse y mostrar el 
-# total acumulado cuando el usuario ingrese un 0.
+# Elabora un programa que permita al usuario ingresar números enteros y los sume en secuencia. 
+# El programa debe detenerse y mostrar el total acumulado cuando el usuario ingrese un 0.
 
 print("=== ACTIVIDAD 4: SUMA HASTA CERO ===")
 print("Ingrese números enteros. El programa se detendrá cuando ingrese 0.")
