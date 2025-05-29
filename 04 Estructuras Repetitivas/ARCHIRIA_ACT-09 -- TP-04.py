@@ -1,6 +1,5 @@
 # Actividad 9: Calcular media de números
-# Elabora un programa que permita al usuario ingresar 100 números enteros 
-# y luego calcule la media de esos valores.
+# Elabora un programa que permita al usuario ingresar 100 números enteros y luego calcule la media de esos valores.
 
 print("=== ACTIVIDAD 9: CÁLCULO DE MEDIA ===")
 
