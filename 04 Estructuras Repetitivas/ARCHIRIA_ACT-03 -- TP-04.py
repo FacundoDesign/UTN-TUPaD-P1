@@ -1,6 +1,5 @@
 # Actividad 3: Suma entre dos valores
-# Escribe un programa que sume todos los números enteros comprendidos 
-# entre dos valores dados por el usuario, excluyendo esos dos valores.
+# Escribe un programa que sume todos los números enteros comprendidos entre dos valores dados por el usuario, excluyendo esos dos valores.
 
 print("=== ACTIVIDAD 3: SUMA ENTRE DOS VALORES ===")
 
