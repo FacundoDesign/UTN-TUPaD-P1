@@ -1,6 +1,5 @@
 # Actividad 6: Números pares en orden decreciente
-# Desarrolla un programa que imprima en pantalla todos los números 
-# pares comprendidos entre 0 y 100, en orden decreciente.
+# Desarrolla un programa que imprima en pantalla todos los números pares comprendidos entre 0 y 100, en orden decreciente.
 
 print("=== ACTIVIDAD 6: NÚMEROS PARES EN ORDEN DECRECIENTE ===")
 print("Números pares del 100 al 0:")
