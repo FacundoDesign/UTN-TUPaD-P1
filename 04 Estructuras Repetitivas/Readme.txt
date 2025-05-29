@@ -5,7 +5,7 @@
 - Variables descriptivas: Usé nombres claros como `numero_secreto`, `suma_total` para que el código sea más entendible.
 
 ## Validaciones agregadas
-- **Entrada de datos**: Agregué controles para evitar errores cuando el usuario ingresa algo incorrecto.
+- Entrada de datos: Agregué controles para evitar errores cuando el usuario ingresa algo incorrecto.
 - Casos especiales: Consideré situaciones como números negativos y el número cero.
 - Límites: En el ejercicio 8, validé que no se excedan los 100 números.
 
@@ -20,7 +20,7 @@
 - WHILE True: Para validar entrada de datos hasta que sea correcta.
 
 ## Detalles técnicos
-- **Ejercicio 2**: Usé división entera para contar dígitos en lugar de convertir a texto.
+- Ejercicio 2: Usé división entera para contar dígitos en lugar de convertir a texto.
 - Ejercicio 5: Agregué el módulo `random` para generar números aleatorios.
 - Ejercicio 8: Incluí porcentajes y estadísticas adicionales para hacer el análisis más completo. Y agregue una version en donde el usuario tiene el control de la cantidad de nuneros a verificar.
 - Ejercicio 10: Manejé correctamente los números negativos manteniendo el signo.
