@@ -1,6 +1,5 @@
 # Actividad 2: Contar dígitos de un número
-# Desarrolla un programa que solicite al usuario un número entero 
-# y determine la cantidad de dígitos que contiene.
+# Desarrolla un programa que solicite al usuario un número entero y determine la cantidad de dígitos que contiene.
 
 print("=== ACTIVIDAD 2: CONTAR DÍGITOS ===")
 
