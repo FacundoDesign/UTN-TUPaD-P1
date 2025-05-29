@@ -5,9 +5,7 @@
 
 print("=== ACTIVIDAD 8: ANÁLISIS DE NÚMEROS ===")
 
-# Cambiar esta variable a 100 para el programa final
-# Se deja en 5 para facilitar las pruebas
-CANTIDAD_NUMEROS = 5  # Cambiar a 100 para funcionamiento completo
+CANTIDAD_NUMEROS = 100
 
 print(f"Ingrese {CANTIDAD_NUMEROS} números enteros:")
 
