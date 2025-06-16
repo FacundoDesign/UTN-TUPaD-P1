@@ -14,7 +14,6 @@ multiplos_4 = list(range(4, 101, 4))
 print(f"Múltiplos de 4: {multiplos_4}")
 print(f"Cantidad de múltiplos: {len(multiplos_4)}")
 
-# EXPLICACIÓN: 
 # range(4, 101, 4) genera números desde 4 hasta 100 (no incluye 101) con saltos de 4
 # list() convierte el objeto range en una lista
 
@@ -27,7 +26,6 @@ mis_favoritos = ["pizza", "chocolate", "música", "programar", "viajar"]
 print(f"Lista completa: {mis_favoritos}")
 print(f"Penúltimo elemento: {mis_favoritos[-2]}")
 
-# EXPLICACIÓN:
 # [-2] accede al penúltimo elemento usando indexación negativa
 # Los índices negativos cuentan desde el final: -1 es el último, -2 el penúltimo, etc.
 
@@ -45,7 +43,6 @@ lista_vacia.append("aprendizaje")
 
 print(f"Lista después de agregar palabras: {lista_vacia}")
 
-# EXPLICACIÓN:
 # append() agrega un elemento al final de la lista
 # Se ejecuta secuencialmente, agregando un elemento por vez
 
@@ -62,7 +59,6 @@ animales[-1] = "oso"
 
 print(f"Lista modificada: {animales}")
 
-# EXPLICACIÓN:
 # animales[1] accede al segundo elemento (índice 1, ya que se cuenta desde 0)
 # animales[-1] accede al último elemento usando indexación negativa
 # La asignación directa reemplaza el valor en esa posición
@@ -90,7 +86,6 @@ numeros_saltos = list(range(10, 31, 5))
 print(f"Lista completa: {numeros_saltos}")
 print(f"Dos primeros elementos: {numeros_saltos[:2]}")
 
-# EXPLICACIÓN:
 # range(10, 31, 5): desde 10 hasta 30 (incluido) con saltos de 5
 # [:2] toma los primeros dos elementos (índices 0 y 1)
 
@@ -107,7 +102,6 @@ autos[2] = "corolla"
 
 print(f"Lista modificada: {autos}")
 
-# EXPLICACIÓN:
 # Los índices 1 y 2 son las posiciones centrales en una lista de 4 elementos
 # Se reemplazan directamente asignando nuevos valores
 
@@ -125,7 +119,6 @@ dobles.append(15 * 2)  # doble de 15
 
 print(f"Lista con dobles: {dobles}")
 
-# EXPLICACIÓN:
 # Se calcula el doble de cada número (multiplicación por 2) y se agrega directamente
 # append() recibe el resultado de la operación matemática
 
@@ -150,7 +143,6 @@ print(f"Después de eliminar 'pan' del primer cliente: {compras}")
 
 print(f"Lista final: {compras}")
 
-# EXPLICACIÓN:
 # compras[2] accede a la lista del tercer cliente (índice 2)
 # compras[1][1] accede al segundo elemento de la lista del segundo cliente
 # remove() elimina la primera ocurrencia del elemento especificado
@@ -184,7 +176,6 @@ print(f"lista_anidada[2][1]: {lista_anidada[2][1]}")
 print(f"lista_anidada[2][2]: {lista_anidada[2][2]}")
 print(f"lista_anidada[3]: {lista_anidada[3]}")
 
-# EXPLICACIÓN:
 # Se crea una lista con diferentes tipos de datos: entero, booleano, lista anidada, booleano
 # Para acceder a elementos de listas anidadas se usan múltiples índices: [índice_principal][índice_sublista]
 
