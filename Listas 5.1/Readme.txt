@@ -4,7 +4,7 @@ Explicacion de Resolución
 Sintesis del Trabajo:
 Este trabajo práctico aborda los conceptos fundamentales de manipulación de listas, incluyendo indexación, métodos integrados y estructuras anidadas.
 
-Los conceptos que utilice e aplique para los diatintos ejercicios propuestos son los siguientes
+Los conceptos que utilizados e aplicados para los distintos ejercicios propuestos son los siguientes
 
 - Indexación y Acceso a Elementos
 Indexación positiva: Acceso desde el inicio `lista[0]`, `lista[1]`
