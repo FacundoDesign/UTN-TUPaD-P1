@@ -1,5 +1,5 @@
-# TP 5 - Listas en Python
-Observaciones de Resolución
+# TP 5 - Listas
+Explicacion de Resolución
 
 Sintesis del Trabajo:
 Este trabajo práctico aborda los conceptos fundamentales de manipulación de listas, incluyendo indexación, métodos integrados y estructuras anidadas.
