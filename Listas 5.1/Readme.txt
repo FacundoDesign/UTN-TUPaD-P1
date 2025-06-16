@@ -25,10 +25,17 @@ Listas Anidadas
 - Acceso mediante doble indexación `lista[i][j]`
 - Manipulación de elementos en diferentes niveles
 
+Enfoques especificos aplicados
+- Operaciones Matemáticas Directas
+pythondobles.append(5 * 2)
+- Cálculo directo en append()
+Modificación por Asignación
+pythonlista[indice] = nuevo_valor  # Reemplazo directo
+
 Manejo de Tipos de Datos Mixtos
+
 - Combinación de enteros, booleanos, flotantes y sublistas
 - Estructuras heterogéneas para casos de uso específicos
-
 
 Resultados de Aprendizaje Alcanzados
 
