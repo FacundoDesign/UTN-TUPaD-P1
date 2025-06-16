@@ -27,10 +27,9 @@ Listas Anidadas
 
 Enfoques especificos aplicados
 - Operaciones Matemáticas Directas
-pythondobles.append(5 * 2)
-- Cálculo directo en append()
-Modificación por Asignación
-pythonlista[indice] = nuevo_valor  # Reemplazo directo
+dobles.append(5 * 2) #Cálculo directo en append()
+- Modificación por Asignación
+lista[indice] = nuevo_valor  #Reemplazo directo
 
 Manejo de Tipos de Datos Mixtos
 
