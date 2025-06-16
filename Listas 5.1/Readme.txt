@@ -1,17 +1,17 @@
 # TP 5 - Listas
 Explicacion de Resolución
 
-Sintesis del Trabajo:
+## Sintesis del Trabajo:
 Este trabajo práctico aborda los conceptos fundamentales de manipulación de listas, incluyendo indexación, métodos integrados y estructuras anidadas.
 
-Los conceptos que utilizados e aplicados para los distintos ejercicios propuestos son los siguientes
+## Los conceptos utilizados e aplicados para los distintos ejercicios propuestos son los siguientes
 
 - Indexación y Acceso a Elementos
 Indexación positiva: Acceso desde el inicio `lista[0]`, `lista[1]`
 - Indexación negativa: Acceso desde el final `lista[-1]` (último), `lista[-2]` (penúltimo)
 - Slicing: Extracción de sublistas `lista[inicio:fin]` donde el inicio se incluye y el fin se excluye
 
-Métodos de Lista Utilizados
+## Métodos de Lista Utilizados
 - `append()`: Agregar elementos al final de la lista
 - `remove()`: Eliminar elementos por valor (primera ocurrencia)
 - `list()`: Convertir objetos range en listas
@@ -25,7 +25,7 @@ Listas Anidadas
 - Acceso mediante doble indexación `lista[i][j]`
 - Manipulación de elementos en diferentes niveles
 
-Enfoques especificos aplicados
+## Enfoques especificos aplicados
 - Operaciones Matemáticas Directas
 dobles.append(5 * 2) #Cálculo directo en append()
 - Modificación por Asignación
@@ -36,7 +36,7 @@ Manejo de Tipos de Datos Mixtos
 - Combinación de enteros, booleanos, flotantes y sublistas
 - Estructuras heterogéneas para casos de uso específicos
 
-Resultados de Aprendizaje Alcanzados
+## Resultados de Aprendizaje Alcanzados
 
 Indexación y Slicing: Dominio completo de acceso a elementos individuales y subconjuntos
 
@@ -46,14 +46,14 @@ Listas Anidadas: Comprensión y manipulación de estructuras de datos complejas
 
 Range y Patrones: Generación eficiente de secuencias numéricas
 
-Notas sobre la resolucion del TP:
+## Notas sobre la resolucion del TP:
 
-- Cada ejercicio incluye ejemplos de entrada y salida
+- Cada ejercicio tiene ejemplos de entrada y salida
 - Explicaciones detalladas de conceptos aplicados
 - Verificación de resultados mediante prints informativos
 - Estructura modular que permite ejecución independiente de ejercicios
 
-Aplicaciones Prácticas
+## Aplicaciones Prácticas
 
 Los conceptos aplicados en este TP son fundamentales para:
 - Procesamiento de datos estructurados
