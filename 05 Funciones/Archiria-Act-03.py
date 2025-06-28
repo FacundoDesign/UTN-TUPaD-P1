@@ -88,8 +88,7 @@ if __name__ == "__main__":
     main()
 
 
-# EXPLICACIÓN DEL CÓDIGO:
-
+# Detalle del codigo:
 # La función recibe CUATRO parámetros: nombre, apellido, edad y residencia
 # Todos los parámetros son obligatorios y deben pasarse en el orden correcto
 # La función usa f-strings para crear un mensaje formateado con todos los datos
