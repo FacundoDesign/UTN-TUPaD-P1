@@ -87,15 +87,14 @@ def main():
 if __name__ == "__main__":
     main()
 
-# ====================================================================
+
 # EXPLICACIÓN DEL CÓDIGO:
-# ====================================================================
-# 1. La función recibe CUATRO parámetros: nombre, apellido, edad y residencia
-# 2. Todos los parámetros son obligatorios y deben pasarse en el orden correcto
-# 3. La función usa f-strings para crear un mensaje formateado con todos los datos
-# 4. Esta función IMPRIME directamente (no devuelve valores como la anterior)
-# 5. En el programa principal recolectamos cada dato por separado
-# 6. Para la edad usamos int() para convertir el texto a número
-# 7. Usamos try/except para manejar errores si el usuario no ingresa un número
-# 8. Al final llamamos a la función pasando los 4 argumentos en orden
-# ====================================================================
+
+# La función recibe CUATRO parámetros: nombre, apellido, edad y residencia
+# Todos los parámetros son obligatorios y deben pasarse en el orden correcto
+# La función usa f-strings para crear un mensaje formateado con todos los datos
+# Esta función IMPRIME directamente (no devuelve valores como la anterior)
+# En el programa principal recolectamos cada dato por separado
+# Para la edad usamos int() para convertir el texto a número
+# Usamos try/except para manejar errores si el usuario no ingresa un número
+# Al final llamamos a la función pasando los 4 argumentos en orden
