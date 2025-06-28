@@ -1,4 +1,4 @@
-# ACTIVIDAD 10 - TP FUNCIONES
+# Ejercicio 10 - TP FUNCIONES
 
 def calcular_promedio(a, b, c):
     """
