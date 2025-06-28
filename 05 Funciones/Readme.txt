@@ -36,7 +36,7 @@ En la Actividad 4, elegi usar `math.pi` en lugar de 3.14159 para tener mayor pre
 - Actividad 4: Usé `math.pi` y `**` para potencias, más preciso y pythónico que `pow()`.
 - Actividad 5: Aplicé la conversión directa dividiendo por 3600 (60*60 segundos en una hora).
 - Actividad 7: Implementé el retorno de tupla para devolver múltiples valores de una sola función.
-- Actividad 8: La fórmula del IMC usa `2` para elevar al cuadrado la altura.
+- Actividad 8: La fórmula del IMC usa **2 para elevar al cuadrado la altura.
 - Actividad 9: Implementé la fórmula exacta `(celsius * 9/5) + 32` para la conversión de temperatura.
 
 ## Testing y depuración
