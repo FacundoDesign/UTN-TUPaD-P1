@@ -1,7 +1,4 @@
-# ====================================================================
-# TRABAJO PRÁCTICO - FUNCIONES EN PYTHON
 # EJERCICIO 3: Función que muestra información personal completa
-# ====================================================================
 
 def informacion_personal(nombre, apellido, edad, residencia):
     """
@@ -51,7 +48,7 @@ def main():
         edad_usuario = int(input("   → "))
     except ValueError:
         # Si el usuario no ingresa un número válido, usamos un valor por defecto
-        print("   ⚠️  No ingresaste un número válido. Usando 25 como edad por defecto.")
+        print(" No ingresaste un número válido. Usando 25 como edad por defecto.")
         edad_usuario = 25
     
     print("4. Ciudad/Lugar de residencia:")
