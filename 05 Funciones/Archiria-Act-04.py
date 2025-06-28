@@ -109,7 +109,7 @@ def main():
         area_ejemplo = calcular_area_circulo(radio_ejemplo)
         perimetro_ejemplo = calcular_perimetro_circulo(radio_ejemplo)
         
-        print(f"\n📊 EJEMPLO CON RADIO = {radio_ejemplo}:")
+        print(f"\n EJEMPLO CON RADIO = {radio_ejemplo}:")
         print(f"   Área: {area_ejemplo:.2f} unidades²")
         print(f"   Perímetro: {perimetro_ejemplo:.2f} unidades")
     
