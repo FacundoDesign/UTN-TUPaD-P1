@@ -104,7 +104,7 @@ def main():
         print(f"   Tu IMC es: {imc_resultado:.2f}")
         
         # Mostramos el cálculo paso a paso
-        print(f"\n🔍 DETALLE DEL CÁLCULO:")
+        print(f"\n DETALLE DEL CÁLCULO:")
         print(f"   IMC = {peso_usuario} ÷ ({altura_usuario})²")
         print(f"   IMC = {peso_usuario} ÷ {altura_usuario ** 2:.4f}")
         print(f"   IMC = {imc_resultado:.2f}")
