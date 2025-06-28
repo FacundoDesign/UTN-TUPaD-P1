@@ -27,4 +27,4 @@ print(f"El promedio de {num1}, {num2} y {num3} es: {promedio:.2f}")
 # Usé la función calcular_promedio() que recibe tres parámetros (a, b, c) y retorna
 # la suma de los tres números dividida por 3.
 # Los valores se solicitan al usuario como float para permitir números decimales
-# y el resultado se muestra con 2 decimales usando :.2f en el formato de string.
+# El resultado se muestra con 2 decimales usando :.2f en el formato de string.
