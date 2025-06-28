@@ -1,4 +1,4 @@
-# ACTIVIDAD 9 - TP FUNCIONES
+# Ejercicio 9: Conversor de temperatura Celsius a Fahrenheit
 
 def celsius_a_fahrenheit(celsius):
     """
@@ -13,7 +13,7 @@ def celsius_a_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
 # Programa principal para el ejercicio 9
-print("--- ACTIVIDAD 9 ---")
+print("--- EJERCICIO 9 ---")
 celsius = float(input("Ingresa la temperatura en grados Celsius: "))
 fahrenheit = celsius_a_fahrenheit(celsius)
 print(f"{celsius}°C equivale a {fahrenheit:.2f}°F")
