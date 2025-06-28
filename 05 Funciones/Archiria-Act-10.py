@@ -1,4 +1,4 @@
-# Ejercicio 10 - TP FUNCIONES
+# Ejercicio 10: Calculadora de promedio de tres números
 
 def calcular_promedio(a, b, c):
     """
