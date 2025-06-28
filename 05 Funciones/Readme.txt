@@ -2,7 +2,7 @@
 
 ## Algunas observaciones sobre mi resolución:
 
-Decidi elegir dos formatos de entrega Actividades individuales y una que compila todas en un programa ejecutable.
+Decidi elegir dos formatos de entrega para este TP: Actividades individuales y compiladas en un programa ejecutable.
 En la Actividad 4, elegi usar `math.pi` en lugar de 3.14159 para tener mayor precisión en los cálculos del área y perímetro del círculo. En la Actividad 7, manejé el caso especial de división por cero devolviendo un mensaje de error en lugar de que el programa falle. La Actividad 6 (tabla de multiplicar) me gustó porque es muy visual y fácil de verificar que funciona bien. En la Actividad 8, investigué la fórmula del IMC para asegurarme de implementarla correctamente. Agregué un programa de pruebas automáticas para poder verificar todas las funciones de una vez sin tener que ingresar datos manualmente cada vez.
 
 ## Decisiones tomadas
