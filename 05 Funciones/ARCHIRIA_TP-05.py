@@ -306,7 +306,7 @@ def pruebas_automaticas():
 
 # Ejecutar el programa
 if __name__ == "__main__":
-    # Puedes elegir ejecutar el programa principal interactivo o las pruebas automáticas
+    # Podes elegir ejecutar el programa principal interactivo o las pruebas automáticas
     
     opcion = input("¿Deseas ejecutar el programa interactivo (i) o las pruebas automáticas (p)? ").lower()
     
