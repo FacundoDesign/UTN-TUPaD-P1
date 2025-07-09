@@ -63,4 +63,4 @@
 - Comprehensions: List comprehensions para filtrado eficiente.
 - Operaciones de conjuntos: Aplicación práctica de teoría de conjuntos.
 - Modularidad: Separación de responsabilidades en funciones específicas.
-- **Experiencia de usuario**: Interfaces intuitivas con menús y validaciones.
+- Experiencia de usuario: Interfaces intuitivas con menús y validaciones.
