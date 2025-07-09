@@ -1,1 +1,122 @@
+# Práctico 6: Estructuras de datos complejas
+# Ejercicio 8: Sistema de gestión de stock
 
+print("=== EJERCICIO 8: SISTEMA DE GESTIÓN DE STOCK ===")
+
+# Diccionario inicial con algunos productos y su stock
+stock_productos = {
+    'Laptop': 15,
+    'Mouse': 50,
+    'Teclado': 30,
+    'Monitor': 8,
+    'Auriculares': 25
+}
+
+print("Stock inicial:")
+for producto, cantidad in stock_productos.items():
+    print(f"{producto}: {cantidad} unidades")
+
+def mostrar_menu():
+    print("\n=== MENÚ DE OPCIONES ===")
+    print("1. Consultar stock de un producto")
+    print("2. Agregar unidades a un producto existente")
+    print("3. Agregar un nuevo producto")
+    print("4. Mostrar todo el stock")
+    print("5. Salir")
+    return input("Seleccione una opción (1-5): ").strip()
+
+def consultar_stock():
+    producto = input("Ingrese el nombre del producto: ").strip()
+    
+    if producto in stock_productos:
+        cantidad = stock_productos[producto]
+        print(f"Stock de {producto}: {cantidad} unidades")
+        
+        # Alerta si el stock es bajo
+        if cantidad <= 5:
+            print(f"  ALERTA: Stock bajo para {producto}")
+    else:
+        print(f"El producto '{producto}' no existe en el inventario.")
+        mostrar_productos_disponibles()
+
+def agregar_unidades():
+    producto = input("Ingrese el nombre del producto: ").strip()
+    
+    if producto in stock_productos:
+        try:
+            unidades = int(input(f"Ingrese las unidades a agregar para {producto}: "))
+            
+            if unidades > 0:
+                stock_anterior = stock_productos[producto]
+                stock_productos[producto] += unidades
+                stock_nuevo = stock_productos[producto]
+                
+                print(f"✓ Stock actualizado para {producto}")
+                print(f"Stock anterior: {stock_anterior}")
+                print(f"Unidades agregadas: {unidades}")
+                print(f"Stock nuevo: {stock_nuevo}")
+            else:
+                print("Error: Debe ingresar un número positivo.")
+        except ValueError:
+            print("Error: Debe ingresar un número válido.")
+    else:
+        print(f"El producto '{producto}' no existe en el inventario.")
+        mostrar_productos_disponibles()
+
+def agregar_producto():
+    producto = input("Ingrese el nombre del nuevo producto: ").strip()
+    
+    if producto in stock_productos:
+        print(f"El producto '{producto}' ya existe.")
+        print(f"Stock actual: {stock_productos[producto]} unidades")
+        print("Use la opción 2 para agregar unidades a un producto existente.")
+    else:
+        try:
+            stock_inicial = int(input(f"Ingrese el stock inicial para {producto}: "))
+            
+            if stock_inicial >= 0:
+                stock_productos[producto] = stock_inicial
+                print(f"✓ Producto '{producto}' agregado con stock inicial de {stock_inicial} unidades.")
+            else:
+                print("Error: El stock inicial no puede ser negativo.")
+        except ValueError:
+            print("Error: Debe ingresar un número válido.")
+
+def mostrar_productos_disponibles():
+    print("\nProductos disponibles:")
+    for producto in sorted(stock_productos.keys()):
+        print(f"- {producto}")
+
+def mostrar_stock_completo():
+    print("\n=== STOCK COMPLETO ===")
+    print(f"Total de productos: {len(stock_productos)}")
+    
+    for producto, cantidad in sorted(stock_productos.items()):
+        estado = "  BAJO" if cantidad <= 5 else "✓ OK"
+        print(f"{producto}: {cantidad} unidades [{estado}]")
+
+# Bucle principal del programa
+while True:
+    opcion = mostrar_menu()
+    
+    if opcion == '1':
+        consultar_stock()
+    elif opcion == '2':
+        agregar_unidades()
+    elif opcion == '3':
+        agregar_producto()
+    elif opcion == '4':
+        mostrar_stock_completo()
+    elif opcion == '5':
+        print("¡Gracias por usar el sistema de gestión de stock!")
+        break
+    else:
+        print("Opción inválida. Por favor, seleccione una opción del 1 al 5.")
+
+# Para este ejercicio creé un sistema completo de gestión de stock usando un diccionario.
+# Implementé funciones separadas para cada operación, mejorando la organización del código.
+# Utilicé manejo de excepciones con try-except para validar entradas numéricas.
+# La verificación con 'in' me permite consultar si un producto existe antes de operarlo.
+# Agregué funcionalidades extra como alertas de stock bajo y validación de datos.
+# El bucle while permite al usuario realizar múltiples operaciones hasta que decida salir.
+# Los métodos .items() y .keys() me permiten iterar sobre el diccionario de diferentes maneras.
