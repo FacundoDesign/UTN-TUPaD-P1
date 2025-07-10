@@ -58,7 +58,3 @@
 - Casos extremos: Probé con números pequeños, grandes, y casos límite.
 - Comparación con métodos iterativos: Verifiqué resultados usando bucles tradicionales.
 - Debugging visual: Las funciones auxiliares permiten ver exactamente cómo funciona la recursión.
-
----
-
-**Nota**: Este TP demuestra comprensión sólida de recursividad, desde conceptos básicos hasta aplicaciones más complejas, con énfasis en código limpio y educativo.
